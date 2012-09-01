@@ -3,7 +3,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := su
 LOCAL_SRC_FILES := su
-
+LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_STATIC_LIBRARIES := \
     liblog \
     libc \
